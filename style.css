@@ -72,7 +72,7 @@ body{
  /* Mobile size Response */
  @media screen and (max-width:414px) {
     .logo{
-        background-color: rgb(209, 207, 84);
+        /* background-color: rgb(209, 207, 84); */
         position: absolute;
         top: 5%;
         left: 10%;
