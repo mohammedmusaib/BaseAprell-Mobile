@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 10px;
+}
+body{
+    background-image: url(./bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.mainhedding{
+    position: absolute;
+    top: 20%;
+    text-align: start;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    left: 10%;
+    letter-spacing: 12px;
+    font-family: sans-serif;
+}
+.mainhedding::first-line{
+    color: coral;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.paragarph{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+   /* text-transform: lowercase; */
+    font-size: 1.9rem;
+    line-height: 30px;
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'El Messiri' ;
+}
+.email{
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    cursor: pointer;
+    padding-left: 30px;
+    font-family: 'cursive';
+    font-size: 20px;
+ }
+ .btn{
+     /* background-image: linear-gradient(from left to red,green,yellow); */
+    padding:  16px 40px;
+     border-radius: 30px ;
+     position: absolute;
+     bottom: 10%;
+     left: 40%;
+     cursor: pointer;
+ }
+ .img-right{
+     width: 41%;
+     position: absolute;
+     right: 0px;
+     top: 0px;
+     object-fit: cover;
+ }
+
+ /* Mobile size Response */
+ @media screen and (max-width:414px) {
+    .logo{
+        background-color: rgb(209, 207, 84);
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+        .mainhedding{
+            position: absolute;
+            top: 55%;
+            text-align: start;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            left: 30%;
+            letter-spacing: 10px;
+    }
+    .paragarph{
+        position: absolute;
+        top: 75%;
+        left: 15%;
+        font-family: 'El Messiri' ;
+        text-transform: capitalize;
+        font-size: 1.0rem;
+        width: 80%;
+        line-height: 20px;
+    }
+    .email{
+        width: 300px;
+        height: 40px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        cursor: pointer;
+        padding-left: 20px;
+        font-family: 'cursive';
+        font-size: 15px;
+     }
+     .btn{
+        /* background-image: linear-gradient(from left to red,green,yellow); */
+       padding:  11px 30px;
+        border-radius: 30px ;
+        position: absolute;
+        bottom: 5%;
+        left: 75%;
+        cursor: pointer;
+    }
+    .img-right{
+        width: 50%;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+     
+        object-fit: cover;
+    }
+
+
+}  
